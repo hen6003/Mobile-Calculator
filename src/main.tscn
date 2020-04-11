@@ -1,0 +1,528 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://assets/button.png" type="Texture" id=2]
+[ext_resource path="res://src/main.gd" type="Script" id=3]
+
+[node name="main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -1.43198
+margin_bottom = -1.43201
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 115.0, 275.0 ],
+"_edit_use_anchors_": false,
+"_edit_vertical_guides_": [ 599.68, 384.027, 440.076, 976.185 ]
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+margin_top = 45.0637
+margin_bottom = 184.064
+custom_fonts/font = ExtResource( 1 )
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -542.0
+margin_top = -803.0
+margin_right = -210.0
+margin_bottom = -477.0
+focus_mode = 0
+custom_colors/font_color_disabled = Color( 1, 0.770508, 0.0820312, 1 )
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="1"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "1"
+
+[node name="2" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -166.0
+margin_top = -803.0
+margin_right = 166.0
+margin_bottom = -477.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="2"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "2"
+
+[node name="3" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 210.0
+margin_top = -803.0
+margin_right = 542.0
+margin_bottom = -477.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="3"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "3"
+
+[node name="4" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -542.0
+margin_top = -427.0
+margin_right = -210.0
+margin_bottom = -101.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="4"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "4"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -166.0
+margin_top = -427.0
+margin_right = 166.0
+margin_bottom = -101.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="5"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 210.0
+margin_top = -427.0
+margin_right = 542.0
+margin_bottom = -101.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="6"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "6"
+
+[node name="7" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -542.0
+margin_top = -50.9999
+margin_right = -210.0
+margin_bottom = 275.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="7"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="8" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -166.0
+margin_top = -50.9999
+margin_right = 166.0
+margin_bottom = 275.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="8"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="9" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 210.0
+margin_top = -50.9999
+margin_right = 542.0
+margin_bottom = 275.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="9"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "9"
+
+[node name="0" type="Button" parent="."]
+modulate = Color( 0.470588, 0.745098, 1, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -542.0
+margin_top = 325.0
+margin_right = -210.0
+margin_bottom = 651.0
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="0"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="-" type="Button" parent="."]
+modulate = Color( 1, 0.470588, 0.470588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = 341.0
+margin_right = 182.0
+margin_bottom = 667.0
+rect_scale = Vector2( 0.9, 0.9 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="-"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "─"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="+" type="Button" parent="."]
+modulate = Color( 1, 0.470588, 0.470588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 226.0
+margin_top = 341.0
+margin_right = 558.0
+margin_bottom = 667.0
+rect_scale = Vector2( 0.9, 0.9 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="+"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="×" type="Button" parent="."]
+modulate = Color( 1, 0.470588, 0.470588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -526.0
+margin_top = 701.0
+margin_right = -194.0
+margin_bottom = 1027.0
+rect_scale = Vector2( 0.9, 0.9 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="×"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "×"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="÷" type="Button" parent="."]
+modulate = Color( 1, 0.470588, 0.470588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = 701.0
+margin_right = 182.0
+margin_bottom = 1027.0
+rect_scale = Vector2( 0.9, 0.9 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="÷"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "÷"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="=" type="Button" parent="."]
+modulate = Color( 0.772549, 1, 0.470588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 226.0
+margin_top = 701.0
+margin_right = 558.0
+margin_bottom = 1027.0
+rect_scale = Vector2( 0.9, 0.9 )
+focus_mode = 0
+enabled_focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="="]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -34.5
+margin_top = -69.5
+margin_right = 34.5
+margin_bottom = 69.5
+custom_fonts/font = ExtResource( 1 )
+text = "="
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="3" to="." method="_on_3_pressed"]
+[connection signal="pressed" from="4" to="." method="_on_4_pressed"]
+[connection signal="pressed" from="5" to="." method="_on_5_pressed"]
+[connection signal="pressed" from="6" to="." method="_on_6_pressed"]
+[connection signal="pressed" from="7" to="." method="_on_7_pressed"]
+[connection signal="pressed" from="8" to="." method="_on_8_pressed"]
+[connection signal="pressed" from="9" to="." method="_on_9_pressed"]
+[connection signal="pressed" from="0" to="." method="_on_0_pressed"]
+[connection signal="pressed" from="-" to="." method="_on_minus_pressed"]
+[connection signal="pressed" from="+" to="." method="_on_add_pressed"]
+[connection signal="pressed" from="×" to="." method="_on_times_pressed"]
+[connection signal="pressed" from="÷" to="." method="_on_divide_pressed"]
+[connection signal="pressed" from="=" to="." method="_on_equal_pressed"]
